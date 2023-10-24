@@ -110,7 +110,7 @@
 }
 
 .the-page {
-    max-width: 1500px;
+    width: 1500px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -133,14 +133,14 @@
     gap: 25px;
     z-index: 1;
     min-height: 450px;
+    justify-content: space-evenly;
 }
 .Card {
     flex: 1;
     min-height: 430px;
     /*max-height: 500px;*/
     padding: 20px;
-    background-color: white !important;
-    min-width: 300px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
@@ -188,7 +188,8 @@
 }
 .flex-image {
     flex: 1;
-    width: 150px;
+    min-width: none;
+    max-width: 150px;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -229,27 +230,30 @@
 }
 .services {
     width: 1500px;
-    margin: auto;
-    padding: 30px;
     display: flex;
-    
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 30px;
 }
 .service {
-    align-self: flex-start;
+    flex: 1;
+    width: 100%;
+    display: flex;
 }
-.service > h3 , .service > a{
-    color: white;
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.service > h3 , .service > p {
+    flex: 1;
+}
+.service > p > a , .service > h3{
     text-decoration: none;
+    color: white;
 }
 
 .the-downBar {
     background-color: rgba(11, 11, 27, 0.836);
     display: flex;
     height: 50px;
-    align-items: center;
 }
 .the-downBarRight {
     flex: 1;
@@ -274,15 +278,13 @@
 }
 .amazon-Class {
     width: 1200px;
-    margin: auto;
     display: flex;
-    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
     gap: 20px;
     padding: 30px;
 }
-.classes {
-    display: flex;
-}
+
 .Customer {
     flex: 1;
 }
