@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon sign in</title>
+    <style>
+        * {
+            font-family: "Amazon Ember",Arial,sans-serif;
+            font-size: 13px;
+        }
+        .header_logo{
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 20px;
+            margin: auto;
+            width: 103px;
+            height: 31px;
+            padding: 5px;
+        }
+        .form {
+            padding: 20px;
+            min-width: 150px;
+            max-width: 250px;
+            margin: auto;
+            margin-top: 80px;
+            margin-bottom: 20px;
+            border: 1px solid #b8b6b6;
+            border-radius: 30px;
+        }
+        .form > h3 {
+            margin: 5px;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 1.2;
+        }
+        .formIn {
+            display: flex;
+            flex-direction: column;
+        }
+        .formIn > p{
+            margin: 3px;
+        }
+        .formIn > button {
+            margin-top: 20px;
+            height: 25px;
+            border-radius: 10px;
+            background-color: rgb(255, 215, 37);
+            border-color: rgb(255, 215, 37);
+        }
+        .formOption {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .formOption > a , .amazon-business{
+            color: navy;
+            text-decoration: none;
+        }
+        .break {
+            padding: 20px;
+            min-width: 150px;
+            max-width: 300px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        .break > div {
+            flex: 1;
+            border: 1px solid rgb(188, 187, 187);
+        }
+        .break > .notLine {
+            border: none;
+            font-size: 14px;
+        }
+
+        .button > a {
+            min-width: 150px;
+            max-width: 300px;
+            margin: auto;
+            margin-bottom: 20px;
+            display: flex;
+            text-decoration: none;
+        }
+        .button > a > button {
+            flex: 1;
+            height: 25px;
+            border-radius: 10px;
+            background-color: rgb(255, 215, 37);
+            border-color: rgb(255, 215, 37);
+        }
+    </style>
+</head>
+<body>
+        <a href="index.html">
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG1.png" alt="amazon photo" class="header_logo">
+        </a>
+        
+        <div class="form">
+            <h3>Sign in</h3>
+            <div class="formIn">
+                <p for="email">Enter Your Email: </p>
+                <input id="email" name="email" type="email" required />
+                <p for="your-password">Your Password: </p>
+                <input id="your-password" name="your-password" type="password" pattern="[a-z0-5]{8,}" required />
+                <button>Continue</button>
+    
+                <div>
+                    <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+                    <div class="formOption">
+                        <a href="">forgot your password</a>
+                        <a href="">other issues with sign in</a>
+                    </div>
+                </div>
+    
+                <div >
+                    <p>Buying for work</p>
+                    <a href="" class="amazon-business">Shop on Amazon Business</a>
+                </div>
+            </div>
+                
+        </div>
+    
+        <div class="break">
+            <div></div>
+            <div class="notLine">New to Amazon</div>
+            <div></div>
+        </div>
+
+        <div class="button">
+            <a href="signUp.html">
+                <button>Create your Amazon account</button>
+            </a>
+        </div>
+        
+</body>
+</html>
