@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todaydeals.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>today Deals</title>
+</head>
+<body>
+    <div class="app">
+
+        <div class="header">
+            <a href="index.html">
+                <img src="/images/amazon_PNG11.png" alt="amazon photo" class="header_logo"><!--the image url = https://pngimg.com/uploads/amazon/amazon_PNG11.png-->
+            </a>
+            
+            <div class="header-search">
+                <input type="text" name="search" id="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-search" width="40px" height="28px"  viewBox="0 0 16 16" fill="white"><!-- viewBox="0 0 16 16"  fill="currentColor"-->
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>    
+            </div>
+
+            <div class="header_items">
+                    <!--<div class="header_option"></div> -->
+                <a href="sign.html" class="header_option">
+                    <span class="header_option_LineOne">Hello Guest?<!--the will be changed in latter whit javascript to be the name of the user --></span>
+                    <span class="header_option_LineTwo">Sign in </span>
+                </a>    
+                    
+
+                <a href="order-history.html" class="header_option">
+                    <span class="header_option_LineOne">Returns</span>
+                    <span class="header_option_LineTwo">& Orders</span>
+                </a>
+
+                <a href="contact-us.html" class="header_option">
+                    <span class="header_option_LineOne">support</span>
+                    <span class="header_option_LineTwo">Team</span>
+                </a>
+
+                <div class="header-option header-cart">
+                    <a href="cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="30px"  viewBox="0 0 16 16" fill="white" class="bi bi-cart4"><!--the dafult styling currentColor"-->
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg>
+                    </a>
+                    <span>0</span>                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="header2">
+            <a href="">
+                <div class="all">
+                    <div class="bar">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>All</div>
+                </div>
+            </a>
+            <a href="todaydeals.html">Today Deals</a>
+            <a href="gift-cards.html">Gift Cards</a>
+            <a href="buyagain.html">Buy Again</a>
+            <a href="contact-us.html">Customer Service</a>
+            <a href="registry.html">Registry</a>
+            <a href="Sells.html">Sell</a>
+        </div>
+
+        <div class="the-page">
+            <div class="header3">
+                <a href="todaydeals.html">Today's Deals</a>
+                <a href="">Coupons</a>
+                <a href="">Renewed Deals</a>
+                <a href="">Outlet</a>
+                <a href="">Digital Deals</a>
+               <a href="">Amazon Warehouse</a>
+    
+            </div>
+
+            <div class="media-amazon">
+                <h1>Today's Deals</h1>
+                <div class="Categories">
+                    <h3>Deals inspired by your recent history</h3>
+                    <div class="products">
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Nexxus.jpg" alt="product">
+                            </div>
+                            <div class="lines">
+                                <span class="lineone">35% off</span>
+                                <span class="linetwo">Deal</span>
+                            </div>
+                            <div class="price">
+                                <span>$</span>
+                                <span>29.72</span>
+                            </div>
+                            <p><a href="#">Nexxus Color Assure Shampoo and Conditioner Color 
+                                Assure 2 Count for Color Treated Hair Enhance Color Vibrancy 
+                                for Up to 40 Washes 33.8 Fl.oz</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Braun.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">21% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>299.99</span>
+                            </div>
+                            <p><a href="#">Braun IPL Long-lasting Hair Removal for Women and Men, New Silk Expert Pro 
+                                5 PL5157, for Body & Face, Long-lasting Hair Removal System, Alternative to Salon 
+                                Laser Hair Removal, with Venus Razor, Pouch</a></p>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Dove.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">20% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>15.75</span>
+                            </div>
+                            <p><a href="#">Dove Men+Care Antiperspirant Deodorant Stick for Men Extra Fresh 4 Count 
+                                with 72-hour Sweat & Odor Protection with 1/4 Moisturizing Cream & Long-lasting Citrus 
+                                scent 2.7 oz</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Maybelline.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">17% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>7.49</span>
+                            </div>
+                            <p><a href="#">Maybelline Dream Fresh Skin Hydrating BB cream, 8-in-1 Skin Perfecting Beauty 
+                                Balm with Broad Spectrum SPF 30, Sheer Tint Coverage, Oil-Free, Light, 1 Fl Oz</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Bioré.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">25% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>8.22</span>
+                            </div>
+                            <p><a href="#">Bioré Original Blackhead Remover Strips, Deep Cleansing Nose Strips 
+                                With Instant Pore Unclogging, Features C-Bond Technology, Oil-Free, Non-Comedogenic 
+                                Use, 14 Count</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Secret.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">20% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>16.78</span>
+                            </div>
+                            <p><a href="#">Secret Aluminum Free Deodorant for Women, 
+                                Coconut 2.4 oz (Pack Of 3)</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Jergens.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">22% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>19.02</span>
+                            </div>
+                            <p><a href="#">Jergens Natural Glow +FIRMING Self Tanner Body Lotion, Fair to Medium Skin 
+                                Tone, Sunless Tanning Moisturizer with Collagen and Elastin. Helps to Visibly Reduce 
+                                Cellulite, 7.5 Fl Oz (Pack of 2)</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/AXE.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">20% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>16.52</span>
+                            </div>
+                            <p><a href="#">AXE Antiperspirant Deodorant for Men Phoenix 4PK 48H Sweat & Odor 
+                                Protection for Long Lasting Freshness, Crushed Mint & Rosemary Men's Deodorant 2.7 oz</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Braun2.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">25% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>149.99</span>
+                            </div>
+                            <p><a href="#">Braun IPL Long-Lasting Hair Removal for Women and Men, Silk Expert Mini 
+                                PL1014 with Venus Razor, Long-Lasting Hair Reducation in Hair Regrowth for Body & 
+                                Face, Corded (Packaging May Vary)</a></p>
+                        </div>
+                        
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/Bio-Oil.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">15% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>6.50</span>
+                            </div>
+                            <p><a href="#">Bio-Oil Dry Skin Gel, Face and Body Moisturizer, Fast Absorbing Hydration, 
+                                with Soothing Emollients and Vitamin B3, Non-Comedogenic, 1.7 oz</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/CHI.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">39% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>85.99</span>
+                            </div>
+                            <p><a href="#">CHI G2 Professional Hair Straightener Titanium Infused Ceramic Plates Flat 
+                                Iron | 1 1/4" Color Coded Temperature Ranges up 425°F For all hair types Includes 
+                                Thermal Mat</a></p>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="/images/AT&T.jpg" alt="product">
+                            </div>
+                            <a href="#" class="lines">
+                                <span class="lineone">20% off</span>
+                                <span class="linetwo">Deal</span>
+                            </a>
+                            <div class="price">
+                                <span>$</span>
+                                <span>69.96</span>
+                            </div>
+                            <p><a href="#">AT&T BL102-3 DECT 6.0 3-Handset Cordless Phone for Home with Answering 
+                                Machine, Call Blocking, Caller ID Announcer, Audio Assist, Intercom, and Unsurpassed 
+                                Range, Silver/Black</a></p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        
+            <div class="Category">
+                <div class="one">
+                    <img src="/images/Top-Deal/Alldeals.png" alt="">
+                    <a href="">All Deals</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/halloween.jpg" alt="">
+                    <a href="">Halloween</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Holiday.png" alt="">
+                    <a href="">Holiday</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/GiftsForAll.png" alt="">
+                    <a href="">Gifts for all</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Amazon-Devices.png" alt="">
+                    <a href="">Amazon Devices</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/PrivateBrands.png" alt="">
+                    <a href="">Amazon Brands</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/SmallBusiness.jpg" alt="">
+                    <a href="">Small Business</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Computers_whit.png" alt="">
+                    <a href="">Computers & Accessories</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Electronics.png" alt="">
+                    <a href="">Electronics</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Home.png" alt="">
+                    <a href="">Home</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Fashion.png" alt="">
+                    <a href="">Fashion</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Beauty.png" alt="">
+                    <a href="">Beauty</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Kitchen.png" alt="">
+                    <a href="">Kitchen</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Furniture.png" alt="">
+                    <a href="">Furniture</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Tvs.jpg" alt="">
+                    <a href="">TVs & Accessories</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/HomeDIY.png" alt="">
+                    <a href="">Home DIY & Appliances</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Sports.png" alt="">
+                    <a href="">Sports & Outdoors</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Toys_white.png" alt="">
+                    <a href="">Toys & Games</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Grocery.jpg" alt="">  
+                    <a href="">Grocery</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Personal_Care.png" alt="">
+                    <a href="">Personal Care</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Cell.png" alt="">
+                    <a href="">Cell Phones & Accessories</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Video_Games.png" alt="">
+                    <a href="">Video Games</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/LAWN.jpg" alt="">
+                    <a href="">Lawn & Garden</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Automotive.png" alt="">
+                    <a href="">Automotive</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Pets.png" alt="">
+                    <a href="">Pet Supplies</a>
+                </div>
+
+                <div class="one">
+                    <img src="../images/Top-Deal/overstock.jpg" alt="">
+                    <a href="">Overstock Deals</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Camera.jfif" alt="">
+                    <a href="">Camera & Photo</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Books.png" alt="">
+                    <a href="">Books</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Jewelry.png" alt="">
+                    <a href="">Jewelry</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Office.png" alt="">
+                    <a href="">Office Supplies</a>
+                </div>
+
+                <div class="one">
+                    <img src="/images/Top-Deal/Musical.jpg" alt="">
+                    <a href="">Musical Instruments</a>
+                </div>
+            </div>
+
+            <div class="SelectList">
+                <select name="" id="Select">
+                    <option value="">Stor by: Featured</option>
+                    <option value="">Stor by: Discount Low TO High</option>
+                    <option value="">Stor by: Discount High To Low</option>
+                    <option value="">Stor by: Price Low TO High</option>
+                    <option value="">Stor by: Price High To Low</option>
+                </select>
+            </div>
+            <div class="Alldeals">
+                <div class="the-list">
+                    <div class="one">
+                        <p><a href="">All deals</a></p>
+                        <p><a href="">Available</a></p>
+                        <p><a href="">Upcoming</a></p>
+                        <p><a href="">Watchlist</a></p>
+                    </div>
+                    <div class="two">
+                        <h5>Prime programs</h5>
+                        <label for=""><input type="checkbox">Prime</label>
+                        <label for=""><input type="checkbox"> Prime Early Access deals</label>
+                        <label for=""><input type="checkbox"> Prime Exclusive deals</label>
+                    </div>
+                    
+                    <div class="two">
+                        <h5>Departments</h5>
+                        <label for=""><input type="checkbox"  id=""> Amazon Devices & Accessories</label>
+                        <label for=""><input type="checkbox"> Appliances</label>
+                        <label for=""><input type="checkbox"> Arts, Crafts & Sewing</label>
+                        <label for=""><input type="checkbox"> Audible Books & Originals</label>
+                        <label for=""><input type="checkbox"> Automotive</label>
+                        <label for=""><input type="checkbox"> Baby Clothing & Shoes</label>
+                        <label for=""><input type="checkbox"> Baby Products</label>
+                        <label for=""><input type="checkbox"> Beauty & Personal Care</label>
+                        <label for=""><input type="checkbox"> Books</label>
+                        <label for=""><input type="checkbox"> Boys' Fashion</label>
+                        <label for=""><input type="checkbox"> Camera & Photo</label>
+                        <label for=""><input type="checkbox"> CDs & Vinyl</label>
+                        <label for=""><input type="checkbox"> Cell Phones & Accessories</label>
+                        <label for=""><input type="checkbox"> Clothing, Shoes & Jewelry</label>
+                        <label for=""><input type="checkbox"> Computers & Accessories</label>
+                        <label for=""><input type="checkbox"> Costumes & Accessories</label>
+                        <label for=""><input type="checkbox"> Electronics</label>
+                        <label for=""><input type="checkbox"> Furniture</label>
+                        <label for=""><input type="checkbox"> Gift Cards</label>
+                        <label for=""><input type="checkbox"> Girls' Fashion</label>
+                        <label for=""><input type="checkbox"> Grocery & Gourmet Food</label>
+                        <label for=""><input type="checkbox"> Headphones & Earbuds</label>
+                        <label for=""><input type="checkbox"> Health & Household</label>
+                        <label for=""><input type="checkbox"> Home & Kitchen</label>
+                        <label for=""><input type="checkbox"> Home Audio & Theater Products</label>
+                        <label for=""><input type="checkbox"> Industrial & Scientific</label>
+                        <label for=""><input type="checkbox"> Kindle eBooks</label>
+                        <label for=""><input type="checkbox"> Kindle Store</label>
+                        <label for=""><input type="checkbox"> Kitchen & Dining</label>
+                        <label for=""><input type="checkbox"> Luggage & Travel Gear</label>
+                        <label for=""><input type="checkbox"> Men's Clothing</label>
+                        <label for=""><input type="checkbox"> Men's Fashion</label>
+                        <label for=""><input type="checkbox"> Men's Grooming</label>
+                        <label for=""><input type="checkbox"> Men's Shoes</label>
+                        <label for=""><input type="checkbox"> Men's Watches</label>
+                        <label for=""><input type="checkbox"> Movies & TV</label>
+                        <label for=""><input type="checkbox"> Musical Instruments</label>
+                        <label for=""><input type="checkbox"> Office Products</label>
+                        <label for=""><input type="checkbox"> Patio, Lawn & Garden</label>
+                        <label for=""><input type="checkbox"> Pet Supplies</label>
+                        <label for=""><input type="checkbox"> Portable Bluetooth Speakers</label>
+                        <label for=""><input type="checkbox"> Power Tools & Hand Tools</label>
+                        <label for=""><input type="checkbox"> Prime Video</label>
+                        <label for=""><input type="checkbox"> Software</label>
+                        <label for=""><input type="checkbox"> Sports & Outdoors</label>
+                        <label for=""><input type="checkbox"> Televisions & Video Products</label>
+                        <label for=""><input type="checkbox"> Tools & Home Improvement</label>
+                        <label for=""><input type="checkbox"> Toys & Games</label>
+                        <label for=""><input type="checkbox"> Video Games</label>
+                        <label for=""><input type="checkbox"> Women's Clothing</label>
+                        <label for=""><input type="checkbox"> Women's Fashion</label>
+                        <label for=""><input type="checkbox"> Women's Jewelry</label>
+                        <label for=""><input type="checkbox"> Women's Shoes</label>
+                        <label for=""><input type="checkbox"> Women's Watches</label>
+                    </div>
+                    
+
+                    <div class="one">
+                        <h5>Women's Watches</h5>
+                        <p><a href="">All deals</a></p>
+                        <p><a href="">Top Deal</a></p>
+                        <p><a href="">Lightning deal</a></p>
+                        <p><a href="">Best deal</a></p>
+                    </div>
+
+                    <div class="one">
+                        <h5>Price</h5>
+                        <p><a href="">All</a></p>
+                        <p><a href="">Under $10</a></p>
+                        <p><a href="">$10 to $25</a></p>
+                        <p><a href="">$25 to $50</a></p>
+                        <p><a href="">$50 to $100</a></p>
+                        <p><a href="">$100 to $200</a></p>
+                        <p><a href="">$200 & Above</a></p>
+                    </div>
+                       
+                    <div class="one">
+                        <h5>Discount</h5>
+                       <p><a href="">All deals</a></p>
+                       <p><a href="">10% off or more</a></p>
+                       <p><a href="">25% off or more</a></p>
+                       <p><a href="">50% off or more</a></p>
+                       <p><a href="">70% off or more</a></p>
+                    </div>
+
+                    <div class="three">
+                        <h5>Average Customer Review</h5>
+                        <p>
+                            <a href="rating">
+                                <span>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                 </svg>
+     
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                     <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                   </svg>
+                                </span>
+                                <span>
+                                 & Up
+                                </span>
+                             </a>
+                        </p>
+                        <p>
+                            <a href="rating">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                </span>
+                                <span>
+                                    & Up
+                                </span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="rating">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                </span>
+                                <span>
+                                    & Up
+                                </span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="rating">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                    </svg>
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                </span>
+                                <span>
+                                    & Up
+                                </span>
+                            </a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="TheRightSide">
+                    <div class="contener">
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31H0KcJNtDL._AC_UF226,226_FMjpg_.jpg" alt="product" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Shop all spooky good Halloween deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51hzbkBX4yL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">P&G: Buy $100, Get $25 Amazon Credit. Includes Household, Health, Baby </a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/61gdXleKWSL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Deals on Unique Gifts</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41AKMbjqT8L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Holiday Beauty Haul Deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91UH-379hqL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Men's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/71B2OBRxI7L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Women's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91jA1gFDFVL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Last Chance Styles from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/A1nVrHUJFaL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kids' and Baby Clothing from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 65% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's apparel, shoes, accessories, and handbags</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">$4.99 and under</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kindle monthly deals, up to 80% off on more than 700 titles</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31LnBsTomRL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 58% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Influencer designed apparel by The Drop</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/316g03z+ioL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 53% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Blink Smart Home Doorbells and Cameras</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51YyQ5kv74L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 62% off</span>
+                                <span class="lineTwo">With Prime</span>
+                            </div>
+                            <p><a href="">Funko Action Figures and More</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31jvd1xQjDL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 64% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's pants, shorts, and skirts</a></p>
+                        </div>
+
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31H0KcJNtDL._AC_UF226,226_FMjpg_.jpg" alt="product" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Shop all spooky good Halloween deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51hzbkBX4yL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">P&G: Buy $100, Get $25 Amazon Credit. Includes Household, Health, Baby </a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/61gdXleKWSL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Deals on Unique Gifts</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41AKMbjqT8L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Holiday Beauty Haul Deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91UH-379hqL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Men's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/71B2OBRxI7L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Women's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91jA1gFDFVL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Last Chance Styles from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/A1nVrHUJFaL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kids' and Baby Clothing from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 65% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's apparel, shoes, accessories, and handbags</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">$4.99 and under</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kindle monthly deals, up to 80% off on more than 700 titles</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31LnBsTomRL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 58% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Influencer designed apparel by The Drop</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/316g03z+ioL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 53% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Blink Smart Home Doorbells and Cameras</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51YyQ5kv74L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 62% off</span>
+                                <span class="lineTwo">With Prime</span>
+                            </div>
+                            <p><a href="">Funko Action Figures and More</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31jvd1xQjDL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 64% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's pants, shorts, and skirts</a></p>
+                        </div>
+
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31H0KcJNtDL._AC_UF226,226_FMjpg_.jpg" alt="product" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Shop all spooky good Halloween deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51hzbkBX4yL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">P&G: Buy $100, Get $25 Amazon Credit. Includes Household, Health, Baby </a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/61gdXleKWSL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Deals on Unique Gifts</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41AKMbjqT8L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Holiday Beauty Haul Deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91UH-379hqL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Men's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/71B2OBRxI7L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Women's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91jA1gFDFVL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Last Chance Styles from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/A1nVrHUJFaL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kids' and Baby Clothing from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 65% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's apparel, shoes, accessories, and handbags</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">$4.99 and under</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kindle monthly deals, up to 80% off on more than 700 titles</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31LnBsTomRL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 58% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Influencer designed apparel by The Drop</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/316g03z+ioL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 53% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Blink Smart Home Doorbells and Cameras</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51YyQ5kv74L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 62% off</span>
+                                <span class="lineTwo">With Prime</span>
+                            </div>
+                            <p><a href="">Funko Action Figures and More</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31jvd1xQjDL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 64% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's pants, shorts, and skirts</a></p>
+                        </div>
+
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31H0KcJNtDL._AC_UF226,226_FMjpg_.jpg" alt="product" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Shop all spooky good Halloween deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51hzbkBX4yL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">P&G: Buy $100, Get $25 Amazon Credit. Includes Household, Health, Baby </a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/61gdXleKWSL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Deals on Unique Gifts</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41AKMbjqT8L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Deal</span>
+                            </div>
+                            <p><a href="">Holiday Beauty Haul Deals</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91UH-379hqL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Men's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/71B2OBRxI7L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 30% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Amazon Essentials Women's Apparel</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/91jA1gFDFVL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Last Chance Styles from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/A1nVrHUJFaL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 35% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kids' and Baby Clothing from Amazon Brands</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 65% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's apparel, shoes, accessories, and handbags</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/41vUGryPaGL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">$4.99 and under</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Kindle monthly deals, up to 80% off on more than 700 titles</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31LnBsTomRL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 58% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Influencer designed apparel by The Drop</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/316g03z+ioL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 53% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Blink Smart Home Doorbells and Cameras</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51YyQ5kv74L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 62% off</span>
+                                <span class="lineTwo">With Prime</span>
+                            </div>
+                            <p><a href="">Funko Action Figures and More</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31jvd1xQjDL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 64% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's pants, shorts, and skirts</a></p>
+                        </div>
+
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31LnBsTomRL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 58% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Influencer designed apparel by The Drop</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/316g03z+ioL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 53% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">Blink Smart Home Doorbells and Cameras</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/51YyQ5kv74L._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 62% off</span>
+                                <span class="lineTwo">With Prime</span>
+                            </div>
+                            <p><a href="">Funko Action Figures and More</a></p>
+                        </div>
+    
+                        <div class="Deal">
+                            <img src="https://m.media-amazon.com/images/I/31jvd1xQjDL._AC_UF226,226_FMjpg_.jpg" alt="" class="dealimage">
+                            <div href="" class="Discount">
+                                <span class="lineOne">Up to 64% off</span>
+                                <span class="lineTwo">Deal</span>
+                            </div>
+                            <p><a href="">The Drop women's pants, shorts, and skirts</a></p>
+                        </div>
+
+    
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="servicesBar">
+                <div class="services">
+                    <div class="service">
+                        <h3>Get to Know Us</h3>
+                        <h3>Make Money with Us</h3>
+                        <h3>Amazon Payment Products</h3>
+                        <h3>Let Us Help You</h3>
+                    </div>
+                    <div class="service">
+                        <p><a href="">Careers</a></p>
+                        <p><a href="">Sell products on Amazon</a></p>
+                        <p><a href="">Amazon Business Card</a></p>
+                        <p><a href="">Amazon and COVID-19</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">Blog</a></p>
+                        <p><a href="">Sell on Amazon Business</a></p>
+                        <p><a href="">Shop with Points</a></p>
+                        <p><a href="">Your Account</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">About Amazon</a></p>
+                        <p><a href="">Sell apps on Amazon</a></p>
+                        <p><a href="">Reload Your Balance</a></p>
+                        <p><a href="">Your Orders</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">Investor Relations</a></p>
+                        <p><a href="">Become an Affiliate</a></p>
+                        <p><a href="">Amazon Currency Converter</a></p>
+                        <p><a href="">Shipping Rates & Policies</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">Amazon Devices</a></p>
+                        <p><a href="">Advertise Your Products</a></p>
+                        <p></p>
+                        <p><a href="">Returns & Replacements</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">Amazon Science</a></p>
+                        <p><a href="">Self-Publish with Us</a></p>
+                        <p></p>
+                        <p><a href="">Manage Your Content and Devices</a></p>
+                    </div>
+                    <div class="service">
+                        <p><a href="">ost an Amazon Hub</a></p>
+                        <p><a href="">›See More Make Money with Us</a></p>
+                        <p></p>
+                        <p><a href="">Amazon Assistant</a></p>
+                    </div>
+                    <div class="service">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p><a href="">Help</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="the-downBar">
+                <div class="the-downBarRight">
+                    <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon photo" class="header_logo">
+                </div>
+                <div class="the-downBarLeft">
+                    <div class="item language">english</div>
+                    <div class="item $">$ USD-U.S.Dollar</div>
+                    <div class="item contury"><!--the us flog will be here-->United States</div>
+                </div>
+            </div>
+    
+            <div class="amazon">
+
+                <div class="amazon-Class">
+                        <div class="Customer">
+                            <div class="title"><a href="">Amazon Music<br>
+                                Stream millions<br>of songs</a></div>    
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Amazon <br>Advertising
+                                <br>Find, attract, and
+                                <br>engage <br>customers</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">6pm
+                                <br>deals
+                                <br>on fashion brands</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">AbeBooks
+                                <br>Books, art
+                                <br>& collectibles</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">ACX
+                                <br>Audiobook Publishing
+                                <br>Made Easy</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Sell on Amazon
+                                <br>Start a Selling 
+                                <br</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Amazon Business
+                                <br>Everything For
+                                <br>Your Business</a></div>
+                        </div>
+                    </div>
+                    <div class="amazon-Class">
+                        <div class="Customer">
+                            <div class="title"><a href="">Amp
+                                <br>Host your own 
+                                <br>live radio show 
+                                <br>with
+                                <br>music you love</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">AmazonGlobal
+                                <br>Ship Orders
+                                <br>Internationally</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Home Services
+                                <br>Experienced Pros
+                                <br>Happiness Guarantee</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Amazon Web 
+                                <br>Services
+                                <br>Scalable Cloud
+                                <br>Computing 
+                                <br>Services</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Audible
+                                <br>Listen to Books & 
+                                <br>Original
+                                <br>Audio Performances</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Box Office Mojo
+                                <br>Find Movie
+                                <br>Box Office Data</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Goodreads
+                                <br>Book reviews
+                                <br>& 
+                                <br>recommendations</a></div>
+                        </div>
+                    </div>
+                    <div class="amazon-Class">
+                        <div class="Customer">
+                            <div class="title"><a href="">IMDb
+                                <br>Movies, TV
+                                <br>& Celebrities</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">IMDbPro
+                                <br>Get Info 
+                                <br>Entertainment
+                                <br>Professionals 
+                                <br>Need</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Kindle Direct 
+                                <br>Publishing
+                                <br>Indie Digital & 
+                                <br>Print Publishing
+                                <br>Made Easy</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Prime Video 
+                                <br>Direct
+                                <br>Video 
+                                <br>Distribution
+                                <br>Made Easy</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Shopbop
+                                <br>Designer
+                                <br>Fashion Brands</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Woot!
+                                <br>Deals and
+                                <br>Shenanigans</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Zappos
+                                <br>Shoes &
+                                <br>Clothing</a></div>
+                        </div>
+                    </div>
+                    <div class="amazon-Class">
+                        <div class="Customer">
+                            <div class="title"><a href="">Ring
+                                <br>Smart Home
+                                <br>Security Systems</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">eero WiFi
+                                <br>Stream 4K Video
+                                <br>in Every Room</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Blink
+                                <br>Smart Security
+                                <br>for Every Home</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Neighbors App
+                                <br>Real-Time 
+                                <br>Crime
+                                <br>& Safety Alerts</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">Amazon Subscription 
+                                <br>Boxes
+                                <br>Top subscription boxes 
+                                <br>– right to your door</a></div>
+                        </div>
+                        <div class="Customer">
+                            <div class="title"><a href="">PillPack
+                                <br>Pharmacy 
+                                <br>Simplified</a>
+                            </div>
+                        </div>
+                        <div class="Customer"></div>
+                    </div>
+
+        </div>
+        
+    </div>
+</body>
