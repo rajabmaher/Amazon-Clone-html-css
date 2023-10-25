@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     margin: auto;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 13px;
 }
 
 .header {
@@ -229,13 +231,14 @@
     border-bottom: 1px solid white;
 }
 .services {
-    width: 1500px;
+    width: 1520px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
     gap: 20px;
     padding: 30px;
+    margin: auto;
 }
 .service {
     flex: 1;
@@ -277,7 +280,7 @@
     background-color: rgb(32, 32, 43);
 }
 .amazon-Class {
-    width: 1200px;
+    width: 1520px;
     display: flex;
     align-items: start;
     justify-content: space-evenly;
