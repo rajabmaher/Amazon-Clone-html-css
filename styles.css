@@ -14,7 +14,7 @@
     height: 60px;
     align-items: center;
     z-index: 100;
-    position: sticky;
+    position: fixed;
     width: 100%;
 }
 .header_logo{
@@ -87,6 +87,10 @@
     justify-content: space-evenly;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 60px;
 }
 .header2 > a {
     color: white;
